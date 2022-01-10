@@ -48,13 +48,12 @@ public class Main
             //Uppercase
             String ustring = name.toUpperCase();
             System.out.println(ustring);
-
             //Lowercase
             String lstring = name.toLowerCase();
             System.out.println(lstring);
             //replace
             System.out.println(name.replace('u', 'o'));
-            System.out.println(name.startsWith("u"));
+            System.out.println(name.startsWith("k"));
             System.out.println(name.endsWith("e"));
             //indexof
             System.out.println(name.indexOf("e"));
